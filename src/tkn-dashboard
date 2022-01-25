@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+SOURCE=`dirname $0`
+open http://localhost:9876/tkn-dashboard/
+kubectl proxy --port 9876 --www="${SOURCE}/www" --www-prefix=/tkn-dashboard --api-prefix=/
