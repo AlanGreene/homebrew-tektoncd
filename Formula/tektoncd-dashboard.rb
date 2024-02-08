@@ -1,8 +1,8 @@
 class TektoncdDashboard < Formula
   desc "Tekton Dashboard - The web-based UI for interacting with Tekton"
   homepage "https://github.com/tektoncd/dashboard"
-  url "https://github.com/alangreene/homebrew-tektoncd/releases/download/v0.33.0-alpha/tekton-dashboard-ui_0.33.0-alpha.tar.gz"
-  sha256 "a59bbdd83a6f41aa725d43302b2b7fbf43f5271528b4d56cb5e8f678b61bdbf8"
+  url "https://github.com/alangreene/homebrew-tektoncd/releases/download/v0.43.1-alpha/tekton-dashboard-ui_0.43.1-alpha.tar.gz"
+  sha256 "0d207a627c23cda8fbcc6cd0451c2d29d7a6f334d23e5305c87a0b31989838da"
 
   def install
     libexec.install Dir["*"]
